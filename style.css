@@ -1,0 +1,86 @@
+/* =========================
+   MOBILE VIEW
+   Default style
+   ========================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+div {
+    width: 90%;
+    padding: 15px;
+    background-color: white;
+    border: 2px solid #333;
+    border-radius: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+
+/* =========================
+   TABLET VIEW
+   768px trở lên
+   ========================= */
+
+@media screen and (min-width: 768px) {
+
+    div {
+        width: 45%;
+    }
+
+    img {
+        max-height: 30%;
+    }
+
+}
+
+
+/* =========================
+   LARGE SCREEN VIEW
+   992px trở lên
+   ========================= */
+
+@media screen and (min-width: 992px) {
+
+    div {
+        width: 30%;
+    }
+
+}
